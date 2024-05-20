@@ -9,6 +9,15 @@
   src: url(./Norse-Bold.otf);
 }
 
+/* utility */
+.italic{
+  font-style: italic;
+}
+
+.underscore{
+  text-decoration: underline;
+}
+
 body{
   background-color:#F9FAFB ;
   display: flex;
@@ -16,6 +25,8 @@ body{
 }
 
 
+
+/* start of left styles */
 .left{
   background-image: url('/halie-west-25xggax4bSA-unsplash.jpg') ;
   background-size: contain;
@@ -51,14 +62,21 @@ img{
   font-weight: 100;
 }
 
+/* end of left styles */
 
-.italic{
-  font-style: italic;
-}
 
-.underscore{
-  text-decoration: underline;
-}
+/* start of right styles */
+
+
+
+
+
+
+
+
+
+
+/* end of right styles */
 
 a{
   color: inherit;
