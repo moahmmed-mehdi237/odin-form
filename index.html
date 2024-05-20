@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>odin-form</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/main.js" defer></script>
+</head>
+<body>
+  <!-- start of left part -->
+  <div class="left">
+    <div class="logo">
+      <div class="imgcontainer">
+        <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="odin logo">
+      </div>
+      <p>ODIN</p>
+    </div>
+    <div class="left-footer">
+      <p>photo by <span class="underscore">Hailie West</span> on       <a href="https://unsplash.com/">unsplash</a></p>
+
+    </div>
+  </div>
+  <!-- end of left part -->
+
+  <!-- start of right part -->
+  <div class="right">
+    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started.</p>
+    <p>you <span class="italic">know</span> you want to.</p>
+
+    <form action="">
+      <legend>Let's do this!</legend>
+      <ul>
+        <li>
+          <label for="firstName">FIRST NAME</label>
+        <input type="text" id="firstName" name="firstName">
+        </li>
+        <li>
+          <label for="lastName">LAST NAME</label>
+        <input type="text" id="lastName" name="lastName">
+        </li>
+        <li>
+          <label for="email">EMAIL</label>
+        <input type="email" id="email" name="email">
+        </li>
+        <li>
+          <label for="phoneNumber">PHONE NUMBER</label>
+        <input type="number" id="phoneNumber" name="phoneNumber" pattern="[0-9]{11}">
+        </li>
+        <li>
+          <label for="password">PASSWORD</label>
+        <input type="text" id="password" name="password">
+        </li>
+        <li>
+          <label for="confirm-password">CONFIRM PASSWORD</label>
+        <input type="text" id="confirm-password" name="confirm-password">
+        </li>
+      </ul>
+    </form>
+
+    <button>Create Account</button>
+    <p>Already have an account? <a href="">Log in</a></p>
+    
+  </div>
+</body>
+</html>
